@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Уникальные портреты на холсте от ARTIRBIT. Профессиональная художественная обработка ваших фотографий. Закажите свой портрет сейчас!">
+    <meta name="keywords" content="портреты на холсте, ARTIRBIT, художественные портреты, портреты по фото, заказать портрет">
+    <meta name="author" content="ARTIRBIT">
+    <meta property="og:title" content="Портреты на холсте ARTIRBIT">
+    <meta property="og:description" content="Уникальные портреты на холсте от профессиональных художников">
+    <meta property="og:image" content="images/AI.png">
+    <title>Портреты на холсте ARTIRBIT - Уникальные художественные портреты по фото</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/AI.png" alt="Логотип ARTIRBIT">
+        </div>
+        <h1 class="site-title">Портреты на холсте ARTIRBIT</h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#testimonials">Отзывы</a></li>
+                <li><a href="#pricing">Пакеты услуг</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about" id="about" data-aos="fade-up">
+            <h2>О нас</h2>
+            <p>
+                Мы создаем уникальные портреты по фотографии, превращая ваши любимые снимки в произведения искусства. 
+                Наша команда профессиональных художников и дизайнеров вдохновляется каждой деталью ваших фотографий, 
+                чтобы создать портрет, который будет радовать вас и ваших близких долгие годы.
+            </p>
+            <p>
+                С помощью современных технологий и индивидуального подхода мы гарантируем высокое качество и 
+                уникальность каждого портрета. Независимо от того, нужен ли вам портрет для себя, в подарок или 
+                для украшения интерьера, мы сделаем его особенным.
+            </p>
+        </section>
+
+        <section class="examples" id="gallery" data-aos="fade-up">
+            <h2>Наши работы</h2>
+            <div class="example-grid">
+                <div class="example-item">
+                    <img src="images/example1.png" alt="Пример портрета 1">
+                </div>
+                <div class="example-item">
+                    <img src="images/example2.png" alt="Пример портрета 2">
+                </div>
+                <div class="example-item">
+                    <img src="images/example3.png" alt="Пример портрета 3">
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing" id="pricing" data-aos="fade-up">
+            <h2>Наши пакеты услуг</h2>
+            <div class="pricing-grid">
+                <div class="pricing-item">
+                    <h3>Стандарт</h3>
+                    <p class="price">от 1999₽</p>
+                    <ul>
+                        <li>Портрет на холсте 30x40</li>
+                        <li>Базовая обработка</li>
+                        <li>Срок выполнения 5-7 дней</li>
+                    </ul>
+                    <button class="btn" onclick="document.getElementById('order').scrollIntoView();">Заказать</button>
+                </div>
+                <div class="pricing-item featured">
+                    <h3>Премиум</h3>
+                    <p class="price">от 3999₽</p>
+                    <ul>
+                        <li>Портрет на холсте 40x60</li>
+                        <li>Премиум обработка</li>
+                        <li>Срок выполнения 3-5 дней</li>
+                        <li>Доставка включена</li>
+                    </ul>
+                    <button class="btn" onclick="document.getElementById('order').scrollIntoView();">Заказать</button>
+                </div>
+                <div class="pricing-item">
+                    <h3>VIP</h3>
+                    <p class="price">от 5999₽</p>
+                    <ul>
+                        <li>Портрет на холсте 50x60</li>
+                        <li>Премиум обработка</li>
+                        <li>Срок выполнения 2-3 дня</li>
+                        <li>Экспресс-доставка</li>
+                        <li>Подарочная упаковка</li>
+                    </ul>
+                    <button class="btn" onclick="document.getElementById('order').scrollIntoView();">Заказать</button>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials" id="testimonials" data-aos="fade-up">
+            <h2>Отзывы клиентов</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="images/testimonial1.jpg" alt="Иван Иванов">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Потрясающая работа! Заказывал портрет родителей на годовщину свадьбы. Результат превзошел все ожидания. Особенно впечатлило внимание к деталям и качество исполнения."</p>
+                        <div class="testimonial-author">
+                            <strong>Иван Иванов</strong>
+                            <span>Екатеринбург</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="images/testimonial2.jpg" alt="Анна Петрова">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Заказывала семейный портрет, осталась в полном восторге! Художники ARTIRBIT создали настоящее произведение искусства. Прекрасное качество и быстрая доставка!"</p>
+                        <div class="testimonial-author">
+                            <strong>Анна Петрова</strong>
+                            <span>Ирбит</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="images/testimonial3.jpg" alt="Михаил Сидоров">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Великолепная работа! Заказывал портрет для своей девушки на день рождения. Она была в восторге! Отдельное спасибо за помощь в выборе стиля и оформлении."</p>
+                        <div class="testimonial-author">
+                            <strong>Михаил Сидоров</strong>
+                            <span>Санкт-Петербург</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info-box" id="contact">
+            <div class="contact-container">
+                <h3>Контактная информация</h3>
+                <div class="contact-info">
+                    <p><strong>Часы работы:</strong> Пн-Пт 9:00 - 18:00</p>
+                    <p><strong>Телефон:</strong> <a href="tel:+79025850404">+7 (902) 585-04-04</a></p>
+                    <p><strong>Адрес:</strong> г. Ирбит, ул. Горького, 10</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">ВКонтакте</a>
+                    <a href="#" class="social-icon">YouTube</a>
+                </div>
+            </div>
+        </section>
+        <section class="order" id="order" data-aos="fade-up">
+            <h3>Форма заказа</h3>
+            <form id="orderForm" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Ваше имя *</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Телефон *</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9+\s-()]+" required>
+                    <span class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="package">Выберите пакет *</label>
+                    <select id="package" name="package" required>
+                        <option value="">Выберите пакет услуг</option>
+                        <option value="basic">Базовый - 2000₽</option>
+                        <option value="standard">Стандарт - 3500₽</option>
+                        <option value="premium">Премиум - 5000₽</option>
+                    </select>
+                    <span class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="size">Размер портрета *</label>
+                    <select id="size" name="size" required>
+                        <option value="">Выберите размер</option>
+                        <option value="20x30">20x30 см</option>
+                        <option value="30x40">30x40 см</option>
+                        <option value="40x60">40x60 см</option>
+                        <option value="50x70">50x70 см</option>
+                    </select>
+                    <span class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="photo">Загрузить фото</label>
+                    <input type="file" id="photo" name="photo" accept="image/*">
+                    <div class="photo-preview"></div>
+                    <span class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Дополнительные пожелания</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+
+                <div class="total-price">
+                    <span>Итоговая стоимость: </span>
+                    <span id="totalPrice">0₽</span>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <span>Отправить заказ</span>
+                    <div class="success-animation">
+                        <i class="fas fa-check"></i>
+        </div>
+                </button>
+            </form>
+
+            <!-- Модальное окно успешной отправки -->
+            <div class="modal" id="successModal">
+                <div class="modal-content">
+                    <i class="fas fa-check-circle"></i>
+                    <h4>Заказ успешно отправлен!</h4>
+                    <p>Мы свяжемся с вами в ближайшее время.</p>
+                    <button class="modal-close">Закрыть</button>
+                </div>
+            </div>
+        </section>
+        <div class="scroll-to-top">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    <footer>
+            <div class="footer-info">
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-vk"></i></a>
+                </div>
+                <p> 2023 ARTIRBIT. Все права защищены.</p>
+                <p>Дополнительная информация: <a href="#" style="color: #00ffcc;">Политика конфиденциальности</a></p>
+            </div>
+    </footer>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            // Инициализация AOS
+            AOS.init({
+                duration: 1000,
+                once: true
+            });
+
+            // Кнопка "Наверх"
+            const scrollBtn = document.querySelector('.scroll-to-top');
+            window.addEventListener('scroll', () => {
+                if (window.pageYOffset > 300) {
+                    scrollBtn.classList.add('show');
+                } else {
+                    scrollBtn.classList.remove('show');
+                }
+            });
+            
+            scrollBtn.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        </script>
+        <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('orderForm');
+    const successModal = document.getElementById('successModal');
+    const modalClose = document.querySelector('.modal-close');
+    const photoInput = document.getElementById('photo');
+    const photoPreview = document.querySelector('.photo-preview');
+    const priceSelect = document.getElementById('package');
+    const sizeSelect = document.getElementById('size');
+    const totalPrice = document.getElementById('totalPrice');
+
+    // Базовые цены пакетов
+    const packagePrices = {
+        'basic': 2000,
+        'standard': 3500,
+        'premium': 5000
+    };
+
+    // Коэффициенты для размеров
+    const sizeMultipliers = {
+        '20x30': 1,
+        '30x40': 1.3,
+        '40x60': 1.6,
+        '50x70': 2
+    };
+
+    // Обновление итоговой цены
+    function updateTotalPrice() {
+        const selectedPackage = priceSelect.value;
+        const selectedSize = sizeSelect.value;
+        if (selectedPackage && selectedSize) {
+            const basePrice = packagePrices[selectedPackage];
+            const multiplier = sizeMultipliers[selectedSize];
+            const final = Math.round(basePrice * multiplier);
+            totalPrice.textContent = `${final}₽`;
+        }
+    }
+
+    // Слушатели для обновления цены
+    priceSelect.addEventListener('change', updateTotalPrice);
+    sizeSelect.addEventListener('change', updateTotalPrice);
+
+    // Предпросмотр фото
+    photoInput.addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                photoPreview.innerHTML = `<img src="${e.target.result}" alt="Preview">`;
+                photoPreview.style.display = 'block';
+            }
+            reader.readAsDataURL(file);
+        }
+    });
+
+    // Валидация формы
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        let isValid = true;
+        const inputs = form.querySelectorAll('input[required], select[required]');
+        
+        inputs.forEach(input => {
+            const errorMessage = input.nextElementSibling;
+            if (!input.value) {
+                isValid = false;
+                input.classList.add('error');
+                errorMessage.textContent = 'Это поле обязательно для заполнения';
+            } else {
+                input.classList.remove('error');
+                errorMessage.textContent = '';
+            }
+        });
+
+        if (isValid) {
+            const submitBtn = form.querySelector('.submit-btn');
+            submitBtn.classList.add('loading');
+            
+            // Имитация отправки формы
+            setTimeout(() => {
+                submitBtn.classList.remove('loading');
+                submitBtn.classList.add('success');
+                successModal.classList.add('show');
+                
+                // Очистка формы
+                setTimeout(() => {
+                    form.reset();
+                    photoPreview.innerHTML = '';
+                    photoPreview.style.display = 'none';
+                    submitBtn.classList.remove('success');
+                }, 1000);
+            }, 1500);
+        }
+    });
+
+    // Закрытие модального окна
+    modalClose.addEventListener('click', () => {
+        successModal.classList.remove('show');
+    });
+});
+</script>
+</body>
+</html>
